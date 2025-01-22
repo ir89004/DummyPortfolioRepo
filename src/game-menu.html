@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game-menu.css">
+</head>
+<body>
+
+    <!-- PS2 Game Selection Menu -->
+    <div class="game-menu">
+        <!-- Title (Top Left) -->
+        <div class="project-title">Select a Project</div>
+
+        <!-- Dynamic Text (Top Right) -->
+        <div class="dynamic-title">Hover over an icon</div>
+
+        <!-- Game Icons -->
+        <div class="game-icons">
+            <div class="game-icon" data-text="Basketball Analytics" data-link="https://github.com/ir89004/IS392---NBA-CSVs">
+                <img src="basketball.png" alt="Basketball Project">
+            </div>
+            <div class="game-icon" data-text="TikTok Data Scraper" data-link="tiktok.html">
+                <img src="tiktok.png" alt="TikTok Project">
+            </div>
+            <div class="game-icon" data-text="Home Automation" data-link="home.html">
+                <img src="house.png" alt="Home Automation Project">
+            </div>
+            <div class="game-icon" data-text="Car Performance Tracker" data-link="car.html">
+                <img src="car.png" alt="Car Performance Project">
+            </div>
+        </div>
+
+        <!-- PS2 Buttons UI (Bottom) -->
+        <div class="controls">
+            <span class="ps2-button blue">X</span> Enter 
+            <span class="ps2-button red">O</span> Back
+        </div>
+    </div>
+
+    <script src="game-menu.js"></script> <!-- ✅ Ensure this file exists -->
+</body>
+</html>
