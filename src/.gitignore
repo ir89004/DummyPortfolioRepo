@@ -1,0 +1,11 @@
+# Ignore Node.js dependencies
+node_modules/
+package-lock.json
+
+# Ignore build files
+dist/
+.vite/
+
+# Ignore system files
+.env
+.DS_Store
